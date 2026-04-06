@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Prescripto AI Chatbot API is running"
+    return "Chatbot API is running"
 
 @app.route("/chat", methods=["POST"])
 def chat():
